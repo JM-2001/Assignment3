@@ -1,0 +1,142 @@
+/* Content */
+/* Welcome Div */
+#welcomeDiv {
+    background-color: #313131;
+    height: 500px;
+    border-radius: 30px;
+    width: 80%;
+    margin: 50px auto 0px auto;
+}   
+.leftSide {
+    padding: 30px 0px 10px 30px;
+	width: 48%;
+    float: left; 
+    font-size: 1.1em;
+}
+.leftSide h1 {
+    margin: 0;
+    font-size: 2.25em;
+}
+.leftSide h2 {
+    margin: 0px 0px 10px 0px;
+}
+.leftSide h3 {
+    margin-bottom: 5px;
+}
+.leftSide p {
+    margin: 5px 0px;
+}
+.leftSide ul {
+    list-style-type: "-";
+    padding-left: 10px;
+    margin-top: 0px;
+}
+.leftSide li {
+    margin: 5px 0px;
+    padding-left: 10px;
+}
+.rightSide {
+    height: 100%;
+	width: 48%;
+	float: right; 
+}
+.rightSide img{
+    width:100%;
+    height:100%;
+    border-radius: 0px 30px 30px 0px;
+}
+/* About Us Div */
+#aboutUsDiv {
+    background-color: #313131;
+    height: 300px;
+    border-radius: 30px;
+    width: 80%;
+    margin: 50px auto 0px auto;
+    font-size: 1.1em;
+}   
+/* Resources Section */
+#resourcesSection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+
+    background-color: #313131;
+    height: 450px;
+    width: 80%;
+    border-radius: 30px;
+
+    padding: 10px;
+    margin: 50px auto 50px auto;
+    font-size: 1.1em;
+}
+.articleImg { 
+    border-radius: 30px 30px 0 0;
+    height: 50%;
+    width: 100%;
+}
+#articleOne {
+    grid-area: 1 / 1 / 2 / 2; 
+
+    background-color: #383838;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+#articleOne h1{
+    margin: 0;
+    font-size: 1.5em;
+    padding: 0px 20px
+}
+#articleOne p {
+    margin: 0;
+    color: #ffffff;
+    padding: 5px 20px;
+}
+#articleOne a{
+    color: #ffffff;
+}
+#articleTwo {
+    grid-area: 1 / 2 / 2 / 3;
+
+    background-color: #383838;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+#articleTwo h1{
+    margin: 0;
+    font-size: 1.5em;
+    padding: 0px 20px
+}
+#articleTwo p {
+    margin: 0;
+    color: #ffffff;
+    padding: 5px 20px;
+}
+#articleTwo a{
+    color: #ffffff;
+}
+
+#articleThree {
+    grid-area: 1 / 3 / 2 / 4; 
+
+    background-color: #383838;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+#articleThree h1{
+    margin: 0;
+    font-size: 1.5em;
+    padding: 0px 20px
+}
+#articleThree p {
+    margin: 0;
+    color: #ffffff;
+    padding: 5px 20px;
+}
+#articleThree a{
+    color: #ffffff;
+}
+/* End of Homepage CSS */ 

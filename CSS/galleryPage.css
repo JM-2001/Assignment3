@@ -1,0 +1,106 @@
+/* Content */
+#galleryMainDiv {
+    background-color: #4e4e4e;
+    height: auto;
+    border-radius: 30px;
+    width: 80%;
+    margin: 50px auto;
+    padding: 10px;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}  
+.galleryImg { 
+    border-radius: 30px 30px 0 0;
+    height: 90%;
+    width: 100%;
+}
+.galleryText {
+    margin: 0;
+    padding: 10px 5px 20px 5px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.25em;
+}
+#gridBoxOne {
+    grid-area: 1 / 2 / 2 / 3;
+    height: 100%;
+    width: 100%;
+
+    background-color: #383838;
+    border-radius: 30px;
+}
+#gridBoxTwo {
+    grid-area: 1 / 1 / 2 / 2; 
+    height: 100%;
+    width: 100%;
+
+    background-color: #383838;
+    border-radius: 30px;
+}
+#gridBoxThree {
+    grid-area: 1 / 3 / 2 / 4; 
+    height: 100%;
+    width: 100%;
+
+    background-color: #383838;
+    border-radius: 30px;
+}
+
+#gridBoxFour {
+    grid-area: 2 / 1 / 3 / 2;
+    height: 100%;
+    width: 100%;
+
+    background-color: #383838;
+    border-radius: 30px;
+}
+
+#gridBoxFive {
+    grid-area: 2 / 2 / 3 / 3; 
+    height: 100%;
+    width: 100%;
+
+    background-color: #383838;
+    border-radius: 30px;
+}
+
+#gridBoxSix {
+    grid-area: 2 / 3 / 3 / 4;
+    height: 100%;
+    width: 100%;
+
+    background-color: #383838;
+    border-radius: 30px;
+}
+
+#gridBoxSeven {
+    grid-area: 3 / 1 / 4 / 2;
+    height: 100%;
+    width: 100%;
+
+    background-color: #383838;
+    border-radius: 30px;
+}
+
+#gridBoxEight {
+    grid-area: 3 / 2 / 4 / 3;
+    height: 100%;
+    width: 100%;
+
+    background-color: #383838;
+    border-radius: 30px;
+}
+
+#gridBoxNine {
+    grid-area: 3 / 3 / 4 / 4;
+    height: 100%;
+    width: 100%;
+
+    background-color: #383838;
+    border-radius: 30px;
+}
+/* End of Gallery Page CSS */

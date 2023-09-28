@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/Main.css">
+    <link rel="stylesheet" href="../CSS/contactusPage.css ">
+    <title>Adventura Campers | Contact Us</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <img src="../Images/BannerImg.jpg" alt="Banner" height="100px" id="bannerImg">
+            <div id="imageHeaderDiv">
+                <!--This is just used to apply gradient-->
+            </div>
+            <nav>
+                <img src="../Images/Logo.png" alt="Logo" height="50px" width="50px">
+                <p id="navTitle">Adventura Campers</p>
+                <ul id="navigation">
+                    <li><a href="../HTML/homePage.html">Home</a></li>
+                    <li><a href="../HTML/galleryPage.html">Gallery</a></li>
+                    <li><a href="../HTML/contactusPage.html" id="current">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="headerToContentDiv">
+            <!--This is just used to apply gradient-->
+        </div>
+        <div id="formContent">
+            <h1>Contact Us</h1>
+            <p>Feel free to contact us if you are interested in a custom van or want to learn more information.</p>
+            <form>
+                <div class="labelDiv">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" placeholder="Your first name...">
+                </div>
+                <div class="labelDiv">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" placeholder="Your last name...">
+                </div>
+                <div class="labelDiv">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your email: johndoe@example.com">
+                </div>
+                <div class="labelDiv">
+                    <label for="subject">Subject:</label>
+                    <textarea type="text" id="subject" name="subject" placeholder="Type the subject you would like to discuss..."></textarea>
+                </div>
+                <div class="labelDiv">
+                    <button type="button" id="submitButton" name="submit">Submit</button>
+                </div>                
+            </form>
+        </div>
+    </div>
+</body>
+</html>

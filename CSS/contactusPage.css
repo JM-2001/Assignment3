@@ -1,0 +1,76 @@
+/* Content */
+#formContent {
+    background-color: #383838;
+    height: 760px;
+    border-radius: 30px;
+    width: 80%;
+    margin: 50px auto;
+    padding: 10px;
+    font-size: 1.1em;
+}  
+#formContent h1 {
+    margin: 0;
+    font-size: 2.25em;
+    text-align: center;
+}
+#formContent p {
+    margin: 5px 0px;
+    text-align: center;
+}
+.labelDiv {
+    margin: 25px 3% 25px 3%;
+    width: 95%;
+}
+.labelDiv label {
+    font-size: 1.05em;
+}
+#firstName, #lastName, #email{
+    margin-top: 10px;
+    background-color: transparent;
+    border: solid #515151 5px;
+    border-radius: 20px;
+    width: 95%;
+    height: 50px;
+    padding: 0px 10px 0px 10px;
+    font-size: 1.05em;
+    color: #FFFFFF;
+}
+#firstName:focus, #lastName:focus, #email:focus{
+    outline: none;
+    color: #FFFFFF;
+    border: solid #1F4492 5px;
+}
+#subject{
+    margin-top: 10px;
+    background-color: transparent;
+    border: solid #515151 5px;
+    border-radius: 20px;
+    width: 95%;
+    height: 100px;
+    padding: 10px;
+    font-size: 1.05em;
+    color: #FFFFFF;
+    overflow:auto;
+    resize:none;
+}
+#subject:focus{
+    outline: none;
+    color: #FFFFFF;
+    border: solid #1F4492 5px;
+}
+#submitButton {
+    border: none;
+    outline: none;
+    background-color: #0084FF;
+    border-radius: 20px;
+    width: 97.5%;
+    height: 80px;
+    padding: 0px 10px 0px 10px;
+    font-size: 1.25em;
+    color: #FFFFFF;
+    display: block;
+}
+#submitButton:hover {
+    background-color: #1D71AF;
+}
+/* End of Contact Us Page CSS */
